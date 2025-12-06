@@ -1,0 +1,7 @@
+{
+  "name": "Gestor de Estoque Inteligente",
+  "description": "Sistema completo de gestão de estoque baseado em estrutura de planilhas, com leitura de código de barras e relatórios via IA.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
