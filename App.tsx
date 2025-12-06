@@ -17,9 +17,9 @@ import {
 } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip as RechartsTooltip, Legend, ResponsiveContainer } from 'recharts';
 import { UnitOfMeasure, Client, Product, Transaction, ViewState } from './types';
-import { StorageService } from './services/storage';
-import { BarcodeScanner } from './components/BarcodeScanner';
-import { generateReportAnalysis } from './services/geminiService';
+import { StorageService } from './storage';
+import { BarcodeScanner } from './BarcodeScanner';
+import { generateReportAnalysis } from './geminiService';
 
 // --- Helper Components ---
 
